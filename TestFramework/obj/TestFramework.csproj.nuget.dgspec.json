@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Documents\\QA\\C# Testing\\TestFramework\\TestFramework.csproj": {}
+    "C:\\Users\\user\\Documents\\QA\\C# Testing\\CSharpTesting\\TestFramework\\TestFramework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Documents\\QA\\C# Testing\\TestFramework\\TestFramework.csproj": {
+    "C:\\Users\\user\\Documents\\QA\\C# Testing\\CSharpTesting\\TestFramework\\TestFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\QA\\C# Testing\\TestFramework\\TestFramework.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\QA\\C# Testing\\CSharpTesting\\TestFramework\\TestFramework.csproj",
         "projectName": "TestFramework",
-        "projectPath": "C:\\Users\\user\\Documents\\QA\\C# Testing\\TestFramework\\TestFramework.csproj",
+        "projectPath": "C:\\Users\\user\\Documents\\QA\\C# Testing\\CSharpTesting\\TestFramework\\TestFramework.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Documents\\QA\\C# Testing\\TestFramework\\obj\\",
+        "outputPath": "C:\\Users\\user\\Documents\\QA\\C# Testing\\CSharpTesting\\TestFramework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -77,6 +77,10 @@
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[4.29.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[9.0.2, )"
             },
             "WebDriverManager": {
               "target": "Package",

@@ -3,6 +3,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Firefox;
+using System.Configuration;
 using WebDriverManager.DriverConfigs.Impl;
 
 namespace TestFramework.utilities
@@ -14,7 +15,8 @@ namespace TestFramework.utilities
         [SetUp]
         public void StartBrowser()
         {
-            InitBrowser("Chrome");
+            string browserName = ConfigurationManager.AppSettings["browser"];
+            InitBrowser(browserName);
 
             driver.Manage().Window.Maximize();
             driver.Url = "http://127.0.0.1:8000/user/login/";
