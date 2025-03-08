@@ -22,6 +22,11 @@ namespace TestFramework.utilities
             driver.Url = "http://127.0.0.1:8000/user/login/";
         }
 
+        public IWebDriver getDriver()
+        {
+            return driver;
+        }
+
         public void InitBrowser(string browserName)
         {
             switch (browserName) 
