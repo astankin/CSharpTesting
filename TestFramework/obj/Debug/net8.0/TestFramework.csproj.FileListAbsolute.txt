@@ -107,8 +107,8 @@ C:\Users\user\Documents\QA\C# Testing\TestFramework\obj\Debug\net8.0\refint\Test
 C:\Users\user\Documents\QA\C# Testing\TestFramework\obj\Debug\net8.0\TestFramework.pdb
 C:\Users\user\Documents\QA\C# Testing\TestFramework\obj\Debug\net8.0\TestFramework.genruntimeconfig.cache
 C:\Users\user\Documents\QA\C# Testing\TestFramework\obj\Debug\net8.0\ref\TestFramework.dll
-C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\testhost.exe
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\testhost.dll
+C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\testhost.exe
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\selenium-manager\linux\selenium-manager
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\selenium-manager\macos\selenium-manager
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\selenium-manager\windows\selenium-manager.exe
@@ -118,11 +118,13 @@ C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\nunit.engine.api.dll
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\nunit.engine.core.dll
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\testcentric.engine.metadata.dll
+C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\TestFramework.dll.config
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\TestFramework.deps.json
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\TestFramework.runtimeconfig.json
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\TestFramework.dll
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\TestFramework.pdb
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\AngleSharp.dll
+C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\SeleniumExtras.PageObjects.dll
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\SeleniumExtras.WaitHelpers.dll
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\Microsoft.TestPlatform.CoreUtilities.dll
@@ -138,6 +140,9 @@ C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\WebDriver.Support.dll
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\WebDriver.dll
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\ICSharpCode.SharpZipLib.dll
+C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\WebDriverManager.dll
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
@@ -204,6 +209,8 @@ C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\obj\Debug\net8.0\TestFramework.csproj.AssemblyReference.cache
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\obj\Debug\net8.0\TestFramework.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\obj\Debug\net8.0\TestFramework.AssemblyInfoInputs.cache
@@ -216,10 +223,3 @@ C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\obj\Debug\net8
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\obj\Debug\net8.0\TestFramework.pdb
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\obj\Debug\net8.0\TestFramework.genruntimeconfig.cache
 C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\obj\Debug\net8.0\ref\TestFramework.dll
-C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\TestFramework.dll.config
-C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
-C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
-C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
-C:\Users\user\Documents\QA\C# Testing\CSharpTesting\TestFramework\bin\Debug\net8.0\SeleniumExtras.PageObjects.dll

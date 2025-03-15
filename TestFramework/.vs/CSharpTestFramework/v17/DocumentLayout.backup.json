@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\QA\\C# Testing\\CSharpTesting\\TestFramework\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3243E61F-C22F-482F-A076-E35405B6B887}|TestFramework.csproj|c:\\users\\user\\documents\\qa\\c# testing\\csharptesting\\testframework\\tests\\testlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3243E61F-C22F-482F-A076-E35405B6B887}|TestFramework.csproj|solutionrelative:tests\\testlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3243E61F-C22F-482F-A076-E35405B6B887}|TestFramework.csproj|c:\\users\\user\\documents\\qa\\c# testing\\csharptesting\\testframework\\pageobjects\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3243E61F-C22F-482F-A076-E35405B6B887}|TestFramework.csproj|solutionrelative:pageobjects\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3243E61F-C22F-482F-A076-E35405B6B887}|TestFramework.csproj|c:\\users\\user\\documents\\qa\\c# testing\\csharptesting\\testframework\\tests\\testlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3243E61F-C22F-482F-A076-E35405B6B887}|TestFramework.csproj|solutionrelative:tests\\testlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3243E61F-C22F-482F-A076-E35405B6B887}|TestFramework.csproj|c:\\users\\user\\documents\\qa\\c# testing\\csharptesting\\testframework\\utilities\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3243E61F-C22F-482F-A076-E35405B6B887}|TestFramework.csproj|solutionrelative:utilities\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3243E61F-C22F-482F-A076-E35405B6B887}|TestFramework.csproj|c:\\users\\user\\documents\\qa\\c# testing\\csharptesting\\testframework\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3243E61F-C22F-482F-A076-E35405B6B887}|TestFramework.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 308,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,27 +37,44 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\QA\\C# Testing\\CSharpTesting\\TestFramework\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\user\\Documents\\QA\\C# Testing\\CSharpTesting\\TestFramework\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-15T15:36:06.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "LoginPage.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\QA\\C# Testing\\CSharpTesting\\TestFramework\\pageObjects\\LoginPage.cs",
               "RelativeDocumentMoniker": "pageObjects\\LoginPage.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\QA\\C# Testing\\CSharpTesting\\TestFramework\\pageObjects\\LoginPage.cs*",
               "RelativeToolTip": "pageObjects\\LoginPage.cs*",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB8AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwCoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T07:39:04.332Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TestLogIn.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\QA\\C# Testing\\CSharpTesting\\TestFramework\\tests\\TestLogIn.cs",
               "RelativeDocumentMoniker": "tests\\TestLogIn.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\QA\\C# Testing\\CSharpTesting\\TestFramework\\tests\\TestLogIn.cs*",
-              "RelativeToolTip": "tests\\TestLogIn.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\user\\Documents\\QA\\C# Testing\\CSharpTesting\\TestFramework\\tests\\TestLogIn.cs",
+              "RelativeToolTip": "tests\\TestLogIn.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAcwCMAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T17:57:42.468Z",
               "EditorCaption": ""
@@ -66,14 +87,10 @@
               "RelativeDocumentMoniker": "utilities\\Base.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\QA\\C# Testing\\CSharpTesting\\TestFramework\\utilities\\Base.cs",
               "RelativeToolTip": "utilities\\Base.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T17:45:54.373Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

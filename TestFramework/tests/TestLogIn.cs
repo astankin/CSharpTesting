@@ -1,27 +1,54 @@
-﻿using OpenQA.Selenium;
+﻿using NUnit.Framework;
+using OpenQA.Selenium;
+using System.Configuration;
 using TestFramework.PageObjects;
 using TestFramework.utilities;
 
-namespace TestFramework;
-
-public class TestLogIn : Base
+namespace TestFramework
 {
-
-    [Test]
-    public void LoginValidCredentials()
+    public class TestLogIn : Base
     {
-        LoginPage loginPage = new LoginPage(getDriver());
-        loginPage.Login("nasko", "As8304034508@");
-        Thread.Sleep(5000);
+
+        string loginUrl = ConfigurationManager.AppSettings["loginUrl"];
+
+        [Test]
+        public void LoginValidCredentials()
+        {
+            
+            StartBrowserWithUrl(loginUrl);
+
+            LoginPage loginPage = new LoginPage(getDriver());
+            loginPage.Login("nasko@yahoo.com", "1234");
+            Thread.Sleep(5000);
+            //Assert.IsTrue(loginPage.IsLoginSuccess());
+        }
+
+        [Test]
+        public void LoginInvalidUsername()
+        {
+            StartBrowserWithUrl(loginUrl);
+
+            string expectedMessage = "No active account found with the given credentials";
+            string expectedClass = "alert-danger";
+
+            // Perform the login action
+            LoginPage loginPage = new LoginPage(getDriver());
+            loginPage.Login("invalid@mail.com", "1234");
+
+            // Wait for the validation message to appear
+            Thread.Sleep(5000); // Replace with an explicit wait if possible for better performance
+
+            // Assert that the validation message is displayed
+            IWebElement validationElement = loginPage.GetValidationElement(); // Adjust based on how the validation message is located
+            Assert.IsTrue(validationElement.Displayed, "Validation message is not displayed.");
+
+            // Assert that the validation message text is as expected
+            Assert.AreEqual(expectedMessage, validationElement.Text, "Validation message text does not match.");
+
+            // Assert that the class of the validation element contains "alert-danger"
+            string actualClass = validationElement.GetAttribute("class");
+            Assert.IsTrue(actualClass.Contains(expectedClass), $"Validation message class does not contain '{expectedClass}'.");
+        }
+
     }
-
-    [Test]
-    public void LoginInvalidUsername()
-    {
-        LoginPage loginPage = new LoginPage(getDriver());
-        loginPage.Login("invalid", "As8304034508@");
-        Thread.Sleep(5000);
-    }
-
-
 }

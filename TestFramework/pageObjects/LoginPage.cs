@@ -2,6 +2,7 @@
 using SeleniumExtras.PageObjects;
 using OpenQA.Selenium.Support.UI;
 using System;
+using SeleniumExtras.WaitHelpers;
 
 namespace TestFramework.PageObjects
 {
@@ -18,16 +19,36 @@ namespace TestFramework.PageObjects
         }
 
         // Username Input Field
-        [FindsBy(How = How.Id, Using = "id_username")]
+        [FindsBy(How = How.Id, Using = "email")]
         private IWebElement usernameInput;
 
         // Password Input Field
-        [FindsBy(How = How.Id, Using = "id_password")]
+        [FindsBy(How = How.Id, Using = "password")]
         private IWebElement passwordInput;
 
         // Sign In Button
-        [FindsBy(How = How.XPath, Using = "//button[@type='submit']")]
+        [FindsBy(How = How.XPath, Using = "//*[@id=\"root\"]/main/div/div/div/div/form/button")]
         private IWebElement signInButton;
+
+        // Validation Message
+        [FindsBy(How = How.XPath, Using = "//*[@id=\"root\"]/main/div/div/div/div/div[1]")]
+        private IWebElement validationMessage;
+
+        public string GetValidationMessage()
+        {
+            // Wait for the validation message to be visible
+            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+            wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//*[@id=\"root\"]/main/div/div/div/div/div[1]")));
+
+            return validationMessage.Text; // Once visible, return the text
+        }
+
+        public IWebElement GetValidationElement()
+        {
+            // Wait for the validation message to be visible
+            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+            return wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//*[@id=\"root\"]/main/div/div/div/div/div[1]")));
+        }
 
         public void Login(string username, string password)
         {
