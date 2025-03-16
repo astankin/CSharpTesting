@@ -12,13 +12,14 @@ namespace TestFramework
         string loginUrl = ConfigurationManager.AppSettings["loginUrl"];
 
         [Test]
-        public void LoginValidCredentials()
+        [TestCase("nasko@yahoo.com", "1234")]  
+        public void LoginValidCredentials(string username, string password)
         {
             
             StartBrowserWithUrl(loginUrl);
 
             LoginPage loginPage = new LoginPage(getDriver());
-            loginPage.Login("nasko@yahoo.com", "1234");
+            loginPage.Login(username, password);
             Thread.Sleep(5000);
             //Assert.IsTrue(loginPage.IsLoginSuccess());
         }
