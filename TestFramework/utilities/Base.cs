@@ -31,6 +31,10 @@ namespace TestFramework.utilities
             driver.Manage().Window.Maximize();
             driver.Url = url;
         }
+        public JsonReader GetDataParser()
+        {
+            return new JsonReader();
+        }
 
         public IWebDriver getDriver()
         {

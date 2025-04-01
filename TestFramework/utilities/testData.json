@@ -1,1 +1,6 @@
-﻿
+﻿{
+  "email": "nasko@yahoo.com",
+  "password": "1234",
+  "email_wrong": "incorrect@mail.com",
+  "password_wrong": "Wrong1234@"
+}

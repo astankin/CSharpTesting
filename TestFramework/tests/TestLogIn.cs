@@ -1,6 +1,7 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
 using System.Configuration;
+using TestFramework.pageObjects;
 using TestFramework.PageObjects;
 using TestFramework.utilities;
 
@@ -21,7 +22,9 @@ namespace TestFramework
             LoginPage loginPage = new LoginPage(getDriver());
             loginPage.Login(username, password);
             Thread.Sleep(5000);
-            //Assert.IsTrue(loginPage.IsLoginSuccess());
+
+            HomePage homePage = new HomePage(getDriver());
+            Assert.IsTrue(homePage.IsLoggedIn(), "The username is not displayed.");
         }
 
         [Test]
